@@ -1,13 +1,21 @@
-# Responsive Portfolio Website Alexa
-## [Watch it on youtube](https://youtu.be/27JtRAI3QO8)
-### Responsive Portfolio Website Alexa
+![screenshot](./img/ss1.png)
+![screenshot](./img/ss2.png)
+![screenshot](./img/ss3.png)
 
-- Responsive Personal Portfolio Website Using HTML CSS & JavaScript
-- Smooth scrolling in each section.
-- Includes a light and dark mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+# Free Discord Bot Website Template
+### Today i make a `Discord Bot Website Template` for free (landing page only).
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+# Installation
+### nodejs are not required for this project.
+#### 1. clone this project to your pc/laptop
+#### 2. open index.html on browser, tada!!! you can change that all on website :)
+#### 2. IMPORTANT: star this repo for more project
 
-![preview img](/preview.png)
+# Tutorial video
+### [click me](https://www.youtube.com/watch?v=l1aKSgvgbmc)
+
+# Note: if this repo reach 100 stars, i will make full page
+# But you can buy the full page if you doesnt want to waiting
+# DM me on instagram: @Vins2106
+
+# Make by Vins 2106 with html, css, js 

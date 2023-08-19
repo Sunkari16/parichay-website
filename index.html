@@ -1,86 +1,121 @@
+<!-- 
+	Make by Vins 2106
+	only landing page.
+	contact me to buy full page (IG: Vins2106)
+	start from 2$ - custom$
+	Github: https://github.com/Vins2106/Free-Discord-Bot-Website
+ -->
+
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>[Your Bot] - A Discord Bot</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- you can change the website icon by change the href link -->
+	<link rel="icon" type="image/png" href="./img/logo.svg">
 
-        <!--==================== UNICONS ====================-->
-        
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="">
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="./css/coloring.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+	<link rel="stylesheet" type="text/css" href="./css/shadow.css">
+	<link rel="stylesheet" type="text/css" href="./css/loading.css">
+	<!-- css end -->
 
-        <title>Responsive Portfolio Website</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            
-        </header>
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="on">
+	<div class="loading" id="loading-box">
+		<div class="loading-item"><div class="loading-progress"></div></div>
+	</div>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
+	<main class="main">
+		<!-- navbar -->
+		<div class="navbar">
+			<div class="container">
+				<div class="navbar-nav">
+					<div class="navbar-brand">
+						<!-- You can change it with Image if you want. -->
+						<span class="navbar-brand-txt"><a class="txt-bold type-1" href="/">Parichay</a></span>
+					</div>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                
-            </section>
+					<span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+					<div class="navs" id="navs">
+						<!-- You can change the href value and the text value -->
+						<div class="navs-item notbtn"><a href="#" class="txt-uppercase">Contact</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- navbar end -->		
 
-            </section>
+		<!-- jumbotron -->
+		<div class="jumbotron">
+			<div class="container">
+				<div class="jumbotron-items">
+					<div class="jumbotron-item">
+						<span class="jumbotron-t">Welcome to the Matrimony Event of a Lifetime!</span>
+						<p class="jumbotron-d">
+							Are you seeking the perfect life partner for your beloved child? Join us for a heartfelt event where parents come together to discover potential matches for their sons and daughters.
+						</p>
+						<div class="jumbotron-buttons">
+							<button class="btn" onclick="location.href='#features'">Features</button>
+							<button class="btn blue" onclick="location.href='#'">Contact</button>
+						</div>
+					</div>
+					<div class="jumbotron-item">
+						<img src="./img/img1.svg" alt="image">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- jumbotron end -->
+		<span class="scroll-down"><i class="fas fa-arrow-down"></i></span>
+	</main>
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+	<!-- features -->
+	<div class="features-box">
+		<h1 class="features-t" id="features">We are provide the best.</h1>
+		<div class="container">
+			<div class="features">
+				<div class="feature">
+					<img class="feature-img" src="./img/feature1.svg"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Explores</h2>
+						<p class="feature-info-d">Explore profiles of eligible bachelors and bachelorettes who share your values and aspirations. </p>
+					</div>
+				</div>
+				<div class="feature">
+					<img class="feature-img" src="./img/feature2.svg"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Interact</h2>
+						<p class="feature-info-d">Enjoy interactive sessions and expert talks on modern matchmaking and building strong relationships. Engage in meaningful conversations and get to know prospective families.</p>
+					</div>
+				</div>
+				<div class="feature">
+					<img class="feature-img" src="./img/feature3.svg"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Meet</h2>
+						<p class="feature-info-d">Meet like-minded parents in search of compatible partners for their children.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- features end -->
 
-            </section>
+	<!-- services -->
+	
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
+	<!-- footer -->
+	<div class="footer">
+		
+	</div>
+	<!-- footer end -->
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-            </section>
-
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-         
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
-
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
-
-        <!--==================== MAIN JS ====================-->
-        <script src=""></script>
-    </body>
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
 </html>
